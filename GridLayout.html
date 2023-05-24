@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid_layout {
+            display: grid;
+            grid-template-rows: 100px 400px 100px;
+            grid-template-rows: 50px 200px 50px;
+            grid-template-columns: 200px 500px 200px;
+            grid-template-columns: 200px minmax(15em, 45em) 200px;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+        #one {background-color: aquamarine;}
+        #two {background-color: seashell;}
+        #three {background-color: cornflowerblue;}
+        #four {background-color: violet;}
+        #five {background-color: skyblue;}
+    </style>
+</head>
+<body>
+    
+    <div id="grid_layout">
+        <div id="one">
+            'one'
+        </div>
+        <div id="two">
+            'two'
+        </div>
+        <div id="three">
+            'three'
+        </div>
+        <div id="four">
+            'four'
+        </div>
+        <div id="five">
+            'five'
+        </div>
+    </div>
+
+</body>
+</html>
