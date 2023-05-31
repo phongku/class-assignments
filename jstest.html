@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript Test Code</title>
+</head>
+<body>
+    <script>
+        console.log("Hello World!");
+        document.write("Hello World!");
+        // alert("Hello World!");
+
+        let million = 1E4;
+        let mcs = 1e-6;
+        document.writeln(mcs + 1);
+        document.writeln(0xf);
+        document.writeln(0.5 + 0.25 == 0.75);
+        document.writeln(0.1 + 0.2 == 0.3);
+        const myPI = 3.1415926;
+        document.writeln(myPI);
+
+        const string1 = "A string primitive";
+        const string2 = new String("A string object");
+        document.write(string1);
+        document.write(string2);
+
+        let str = "abcdefg";
+        document.write(str.length);
+        document.write('abcdefg'.length);
+        document.write(str.charAt(3));
+
+        let name = 'John';
+        let greeting = 'Hello ' + name;
+        document.write(greeting);
+
+        let x = 3;
+        document.write(x);
+
+        {
+            let x = 5;
+            document.write(x);
+        }
+
+        function myFunction() {
+            let x = 7;
+            document.write(x);
+        }
+
+        myFunction();
+
+        document.write(5 == 5);
+        document.write(5 == 3);
+        document.write(5 === '5');
+
+        document.write(typeof 5);
+        document.write(typeof '5.0');
+
+        /*
+        
+        let iceCream = "chocolate";
+        if (iceCream === "chocolate") {
+            alert("Yay, I love chocolate ice cream!");
+        } else {
+            alert("Awwww, but chocolate is my favorite…");
+        }
+
+        // check if the number is positive
+        const number = prompt("Enter a number: ");
+        // check if number is greater than 0
+        if (number > 0) {
+        // the body of the if statement
+            console.log("The number is positive");
+        }
+        console.log("The if statement is easy");
+
+        */
+        
+        for(i = 0; i <= 10; i = i + 2){
+            document.write(i + ' ')
+        }
+
+        let sum = 0;
+        let a = 1;
+        do{
+            a++
+            sum += a;
+        }while(a<=9);
+
+        document.write(sum);
+
+    </script>
+</body>
+</html>
